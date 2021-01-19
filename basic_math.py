@@ -45,7 +45,7 @@ def get_smallest(number_list):
             >>> bm.get_smallest(number_list)
             11
     """
-    smallest_number = None
+    smallest_number = min(number_list)
     return smallest_number
 
 
